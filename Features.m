@@ -1,0 +1,10 @@
+a = miraudio('Folder','Extract',0,40,'s','Start');
+t = mirtempo(a);
+e = mirrms(a);
+p = mirpitch(a);
+k = mirkey(a);
+m = mirmode(a);
+pc = mirpulseclarity(a);
+ed = mireventdensity(a);
+ih = mirinharmonicity(a);
+mirexport('Features.txt',t,e,p,m,pc,ed,ih,k);
