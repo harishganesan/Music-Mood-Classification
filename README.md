@@ -10,3 +10,6 @@ SVM (One v All)
 Linear Discriminant Analysis
 
 Accuracy Obtained : 78%
+
+
+https://ieeexplore.ieee.org/document/7830197/
